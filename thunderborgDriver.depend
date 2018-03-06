@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1520059866 source:/home/pi/cppApps/thunderborgDriver/main.cpp
+	<iostream>
+	"ThunderborgDriver.hpp"
+	"MotorController.hpp"
+	"chrono"
+	"thread"
+
+1520058396 /home/pi/cppApps/thunderborgDriver/ThunderborgDriver.hpp
+	<stdint.h>
+
+1520058411 source:/home/pi/cppApps/thunderborgDriver/ThunderborgDriver.cpp
+	"ThunderborgDriver.hpp"
+	<iostream>
+	<unistd.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<linux/i2c-dev.h>
+
+1520060937 source:/home/pi/cppApps/thunderborgDriver/MotorController.cpp
+	"MotorController.hpp"
+	"iostream"
+	"chrono"
+	"thread"
+
+1520060333 /home/pi/cppApps/thunderborgDriver/MotorController.hpp
+	"ThunderborgDriver.hpp"
+
